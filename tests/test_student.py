@@ -10,7 +10,7 @@ def test_student_creation():
         [80, 90]
     )
 
-    assert student.name() == "John"
+    assert student.name == "John"
 
 
 def test_average_marks():
